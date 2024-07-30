@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新潟詳細情報サイト</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <header>
+    <h1>新潟へようこそ！</h1>
+    <nav>
+      <ul>
+        <li><a href="https://www.pref.niigata.lg.jp/">トップページ</a></li>
+        <li><a href="https://niigata-kankou.or.jp/">観光スポット</a></li>
+        <li><a href="https://www.nvcb.or.jp/eat">グルメ</a></li>
+        <li><a href="https://niigata-kankou.or.jp/event">イベント</a></li>
+        <li><a href="https://niigata-kankou.or.jp/access">アクセス</a></li>
+        <li><a href="https://www.niigata-ryokan.or.jp/oyado/">宿泊</a></li>
+        <li><a href="toiawase.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tourism">
+      <h2>新潟の観光スポット</h2>
+      <table>
+        <tr>
+          <th>名前</th>
+          <th>ジャンル</th>
+          <th>住所</th>
+          <th>営業時間</th>
+          <th>休館日</th>
+          <th>料金</th>
+          <th>詳細情報</th>
+        </tr>
+        <tr>
+          <td>佐渡金山</td>
+          <td>歴史</td>
+          <td>佐渡市</td>
+          <td>9:00-17:00</td>
+          <td>無休</td>
+          <td>大人：1,200円</td>
+          <td><a href="https://www.sado-kinzan.com/">佐渡金山</a></td>
+        </tr>
+        <tr>
+          <td>苗場スキー場</td>
+          <td>スキー・スノーボード</td>
+          <td>苗場村</td>
+          <td>8:30-17:00</td>
+          <td>12月下旬-4月中旬</td>
+          <td>大人：6,000円</td>
+          <td><a href="https://www.princehotels.co.jp/ski/naeba/summer/">苗場スキー場</a></td>
+        </tr>
+        <tr>
+          <td>弥彦神社</td>
+          <td>神社</td>
+          <td>弥彦村</td>
+          <td>8:00-17:00</td>
+          <td>無休</td>
+          <td>無料</td>
+          <td><a href="https://www.yahiko-jinjya.or.jp/">弥彦神社</a></td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="gourmet">
+      <h2>新潟グルメ</h2>
+      <form action="#">
+        <label for="taste">お好みの味を選んでください：</label>
+        <select id="taste" name="taste">
+          <option value="seafood">海鮮料理</option>
+          <option value="rice">米どころの新潟！ご飯もの</option>
+          <option value="ramen">ラーメン</option>
+          <option value="other">その他</option>
+        </select>
+        <input type="submit" value="検索">
+      </form>
+    </section>
+
+    <script src="js/niigata.js"></script>
+    <body>
+      <button onclick="change()">他の料理</button>
+      <img src="images/img1.jpg" id="demo" width="300" height="270">
+    </body>
+
+
+
+
+    <section id="event">
+      <h2>新潟のイベント情報</h2>
+      <ul>
+        <li><a href="https://niigata-kankou.or.jp/event/2436">新潟大花火大会</a></li>
+        <td><img src="images/hanabi.jpg" width="400" height="250"></td>
+        <td><a href="hanabi.html">詳しい情報</a></td>
+        <li><a href="http://nakasato-kiyotsu.galaxy.bindcloud.jp/">雪上カーニバル</a></li>
+        <td><img src="images/yuki.jpg" width="400" height="400" alt=""></td>
+        <td><a href="yuki.html">詳しい情報</a></td>
+        <li><a href="https://niigata-kankou.or.jp/location/site/43211">鮭の遡上</a></li>
+        <td><img src="images/sake.jpg" width="400" height="400" alt=""></td>
+        <td><a href="sake.html">詳しい情報</a></td>
+        <td><a href=""></a></td>
+
+      </ul>
+    </section>
+
+    <section id="image">
+      <h2>新潟の風景</h2>
+      <div class="image-box">
+        <img src="images/niigata-landscape.jpg" alt="新潟の風景">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 新潟詳細情報サイト</p>
+  </footer>
+</body>
+
+</html>
