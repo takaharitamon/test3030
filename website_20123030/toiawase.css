@@ -1,0 +1,69 @@
+input[type=text] {
+  background-color: rgb(255, 255, 255);
+}
+
+textarea {
+  background-color: rgb(166, 166, 223);
+}
+
+fieldset {
+  border: solid 1px rgb(166, 97, 234)
+}
+
+legend {
+  background-color: blueviolet;
+  border-radius: 2em;
+  color: antiquewhite;
+  padding: 10px 10px;
+}
+
+input[type=radio]:checked {
+  box-shadow: 3px 3px 3px rgb(170, 39, 225);
+}
+
+input[type=checkbox]:checked {
+  box-shadow: 3px 3px 3px rgb(146, 46, 238);
+}
+
+button {
+  background-color: rgb(146, 46, 238);
+  color: antiquewhite;
+}
+
+button:hover {
+  background-color: rgb(149, 102, 165);
+  color: white;
+  cursor: pointer;
+}
+
+.form-item {
+  position: relative;
+}
+
+.form-item .fas.fa-envelope {
+  position: absolute;
+  color: rgb(172, 187, 169);
+  top: 4px;
+  left: 2px;
+}
+
+.form-item .fas.fa-user {
+  position: absolute;
+  color: rgb(172, 187, 169);
+  top: 4px;
+  left: 2px;
+}
+
+.form-item .fas.fa-hashtag {
+  position: absolute;
+  color: rgb(172, 187, 169);
+  top: 4px;
+  left: 2px;
+}
+
+.form-item .fas.fa-phone {
+  position: absolute;
+  color: rgb(172, 187, 169);
+  top: 4px;
+  left: 2px;
+}
